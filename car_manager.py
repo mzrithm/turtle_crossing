@@ -3,6 +3,7 @@ from random import randint
 
 colors = ["red", "orange", "green", "blue", "yellow", "purple"]
 
+
 class Car(Turtle):
     """Generate random selection of car objects
     moving at set speed along y-axis.
@@ -23,7 +24,7 @@ class Car(Turtle):
         new_car.speed(1)
         new_car.color(colors[randint(0, 5)])
         new_car.turtlesize(stretch_wid=1, stretch_len=2)
-        new_car.setposition(315, randint(-300, 300))
+        new_car.setposition(315, randint(-300, 200))
         new_car.showturtle()
         self.car_list.append(new_car)
 
