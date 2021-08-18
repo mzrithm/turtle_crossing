@@ -8,12 +8,15 @@ screen.setup(width=600, height=600)
 screen.tracer(0)
 
 car = Car()
+car_place = 260
 game_is_on = True
+pace = 0
 
 while game_is_on:
-    car.create_cars()
     car.drive()
-    time.sleep(0.1)
-
+    if pace % 6 == 0:
+        car.add_car()
     time.sleep(0.1)
     screen.update()
+    pace += 1
+
