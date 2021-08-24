@@ -24,7 +24,7 @@ class Car(Turtle):
         new_car.speed(1)
         new_car.color(colors[randint(0, 5)])
         new_car.turtlesize(stretch_wid=1, stretch_len=2)
-        new_car.setposition(315, randint(-180, 200))
+        new_car.setposition(315, randint(-160, 200))
         new_car.showturtle()
         self.car_list.append(new_car)
 
