@@ -1,5 +1,5 @@
 # turtle_crossing
-Turtle crossing game using turtle library and python.
+Turtle crossing game using the Turtle module and Python.
 
 ***Player Class***
 - Starting position is (0, -200)
